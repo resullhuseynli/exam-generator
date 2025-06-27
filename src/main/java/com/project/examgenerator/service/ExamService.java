@@ -3,6 +3,7 @@ package com.project.examgenerator.service;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
@@ -13,7 +14,7 @@ public class ExamService {
 
     private final int QUESTION_LINE_SIZE = 6;
 
-    public HashMap<String, Integer> getQuestions(String filename /*int startPoint, int endPoint, int questionSize*/) {
+    public HashMap<String, Integer> getQuestions(String filename /*int startPoint, int endPoint, int questionSize*/) throws IOException {
         LinkedHashMap<String, Integer> questions = new LinkedHashMap<>();
         try (BufferedReader br = new BufferedReader(new FileReader("uploads/" + filename))) {
             String line = br.readLine();
@@ -36,8 +37,10 @@ public class ExamService {
                 }
                 questions.put(question.toString().trim(), trueAnswer);
             }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        } catch (FileNotFoundException fileNotFoundException) {
+            throw new FileNotFoundException("File not found");
+        }  catch (IOException ioException) {
+            throw new IOException();
         }
         return questions;
     }
