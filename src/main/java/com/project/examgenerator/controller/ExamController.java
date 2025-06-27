@@ -1,14 +1,13 @@
 package com.project.examgenerator.controller;
 
+import com.project.examgenerator.request.ExamRequest;
 import com.project.examgenerator.service.ExamService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 @CrossOrigin("*")
 @RestController
@@ -18,15 +17,11 @@ public class ExamController {
 
     private final ExamService examService;
 
-    @GetMapping("/questions")
-    public HashMap<String, Integer> getQuestions(
-            //Model  model,
-            @RequestParam String filename
-//            @RequestBody int startPoint,
-//            @RequestBody int endPoint,
-//            @RequestBody int questionSize
+    @PostMapping("/questions")
+    public ResponseEntity<LinkedHashMap<String, Integer>> postQuestions(
+            @RequestParam String filename,
+            @RequestBody ExamRequest request
             ) throws IOException {
-        //        model.addAttribute("questions", questions);
-        return examService.getQuestions(filename/*, startPoint, endPoint, questionSize*/);
+        return ResponseEntity.ok(examService.getQuestions(filename, request));
     }
 }
