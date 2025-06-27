@@ -7,8 +7,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.HashMap;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/v1/exam")
 @RequiredArgsConstructor
@@ -23,7 +25,7 @@ public class ExamController {
 //            @RequestBody int startPoint,
 //            @RequestBody int endPoint,
 //            @RequestBody int questionSize
-            ) {
+            ) throws IOException {
         //        model.addAttribute("questions", questions);
         return examService.getQuestions(filename/*, startPoint, endPoint, questionSize*/);
     }
