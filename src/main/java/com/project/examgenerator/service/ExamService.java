@@ -1,20 +1,25 @@
 package com.project.examgenerator.service;
 
+import com.project.examgenerator.request.ExamRequest;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 @Service
 public class ExamService {
 
-    private final int QUESTION_LINE_SIZE = 6;
+    private final int QUESTION_LINE_SIZE;
 
-    public HashMap<String, Integer> getQuestions(String filename /*int startPoint, int endPoint, int questionSize*/) throws IOException {
+    public ExamService(@Value("${QUESTION_LINE_SIZE}") int questionLineSize) {
+        QUESTION_LINE_SIZE = questionLineSize;
+    }
+
+    public LinkedHashMap<String, Integer> getQuestions(String filename, ExamRequest request) throws IOException {
         LinkedHashMap<String, Integer> questions = new LinkedHashMap<>();
         try (BufferedReader br = new BufferedReader(new FileReader("uploads/" + filename))) {
             String line = br.readLine();
