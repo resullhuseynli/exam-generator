@@ -1,6 +1,5 @@
 package com.project.examgenerator.controller;
 
-import com.project.examgenerator.request.ExamRequest;
 import com.project.examgenerator.service.ExamService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -20,8 +19,10 @@ public class ExamController {
     @PostMapping("/questions")
     public ResponseEntity<LinkedHashMap<String, Integer>> postQuestions(
             @RequestParam String filename,
-            @RequestBody ExamRequest request
+            @RequestParam int startPoint,
+            @RequestParam int endPoint,
+            @RequestParam int questionCount
             ) throws IOException {
-        return ResponseEntity.ok(examService.getQuestions(filename, request));
+        return ResponseEntity.ok(examService.getQuestions(filename, startPoint, endPoint, questionCount));
     }
 }
