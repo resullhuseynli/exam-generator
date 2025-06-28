@@ -1,6 +1,5 @@
 package com.project.examgenerator.service;
 
-import com.project.examgenerator.request.ExamRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +18,10 @@ public class ExamService {
         QUESTION_LINE_SIZE = questionLineSize;
     }
 
-    public LinkedHashMap<String, Integer> getQuestions(String filename, ExamRequest request) throws IOException {
+    public LinkedHashMap<String, Integer> getQuestions(String filename,
+                                                       int startPoint,
+                                                       int endPoint,
+                                                       int questionCount) throws IOException {
         LinkedHashMap<String, Integer> questions = new LinkedHashMap<>();
         try (BufferedReader br = new BufferedReader(new FileReader("uploads/" + filename))) {
             String line = br.readLine();
