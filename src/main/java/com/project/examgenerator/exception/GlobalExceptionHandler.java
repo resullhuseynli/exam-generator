@@ -1,5 +1,6 @@
 package com.project.examgenerator.exception;
 
+import com.project.examgenerator.exception.model.ApiResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -14,11 +15,6 @@ public class GlobalExceptionHandler{
     @ExceptionHandler(FileNotFoundException.class)
     public ResponseEntity<ApiResponse<String>> handleFileNotFoundException(FileNotFoundException fileNotFoundException) {
         return ResponseEntity.badRequest().body(new ApiResponse<>(fileNotFoundException.getMessage(), LocalDateTime.now()));
-    }
-
-    @ExceptionHandler(IndexOutOfBoundsException.class)
-    public ResponseEntity<ApiResponse<String>> handleIndexOutOfBoundsException(IndexOutOfBoundsException indexOutOfBoundsException) {
-        return ResponseEntity.badRequest().body(new ApiResponse<>(indexOutOfBoundsException.getMessage(), LocalDateTime.now()));
     }
 
     @ExceptionHandler(IOException.class)
