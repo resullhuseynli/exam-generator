@@ -2,6 +2,7 @@ package com.project.examgenerator.controller;
 
 import com.project.examgenerator.model.Question;
 import com.project.examgenerator.service.ExamService;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,6 +18,7 @@ public class ExamController {
 
     private final ExamService examService;
 
+    @Operation(summary = "Get All The Questions With Specific Bound")
     @GetMapping("/questions")
     public ResponseEntity<List<Question>> getAllQuestions(
             @RequestParam String filename,
@@ -28,6 +30,7 @@ public class ExamController {
         return ResponseEntity.ok(examService.getAllQuestions(filename, startPoint, endPoint));
     }
 
+    @Operation(summary = "Get Random Questions With Specific Bound")
     @GetMapping("/random/questions")
     public ResponseEntity<List<Question>> getRandomQuestions(
             @RequestParam String filename,
