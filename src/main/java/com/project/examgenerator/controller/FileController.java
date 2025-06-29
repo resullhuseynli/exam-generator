@@ -1,6 +1,9 @@
 package com.project.examgenerator.controller;
 
 import com.project.examgenerator.service.FileService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.media.Content;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
@@ -19,8 +22,10 @@ public class FileController {
 
     private final FileService examService;
 
-    @PostMapping("/upload")
-    public ResponseEntity<String> uploadFile(@RequestParam("file") MultipartFile file) throws IOException {
+    @Operation(summary = "The Endpoint For Uploading File")
+    @PostMapping(path = "/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<String> uploadFile(
+            @RequestPart("file") MultipartFile file) throws IOException {
 
         if (file.isEmpty()) return ResponseEntity.badRequest().body("File is empty");
 
