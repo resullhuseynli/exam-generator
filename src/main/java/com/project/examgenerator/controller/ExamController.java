@@ -7,8 +7,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
 
 @CrossOrigin("*")
@@ -19,16 +17,26 @@ public class ExamController {
 
     private final ExamService examService;
 
-    @GetMapping("/questions") //QUESTION NUMBER, {question, true answer}
-    public ResponseEntity<List<Question>> postQuestions(
+    @GetMapping("/questions")
+    public ResponseEntity<List<Question>> getAllQuestions(
+            @RequestParam String filename,
+            @RequestParam int startPoint,
+            @RequestParam int endPoint) throws IOException {
+        if(startPoint < 0 || endPoint < 0 || startPoint > endPoint) {
+            throw new IllegalArgumentException("Invalid start and end point provided");
+        }
+        return ResponseEntity.ok(examService.getAllQuestions(filename, startPoint, endPoint));
+    }
+
+    @GetMapping("/random/questions")
+    public ResponseEntity<List<Question>> getRandomQuestions(
             @RequestParam String filename,
             @RequestParam int startPoint,
             @RequestParam int endPoint,
-            @RequestParam int questionCount
-            ) throws IOException {
-        if(startPoint < 0 || endPoint < 0 || questionCount < 0 || questionCount > (endPoint - startPoint) || startPoint > endPoint) {
+            @RequestParam int maxQuestions) throws IOException {
+        if(startPoint < 0 || endPoint < 0 || maxQuestions < 0 || startPoint > endPoint || (endPoint - startPoint) + 1 < maxQuestions) {
             throw new IllegalArgumentException("Invalid start and end point provided");
         }
-        return ResponseEntity.ok(examService.getQuestions(filename, startPoint, endPoint, questionCount));
+        return  ResponseEntity.ok(examService.getRandomQuestions(filename, startPoint, endPoint, maxQuestions));
     }
 }
