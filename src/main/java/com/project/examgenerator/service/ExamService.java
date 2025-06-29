@@ -19,12 +19,9 @@ public class ExamService {
         QUESTION_LINE_SIZE = questionLineSize;
     }
 
-    public List<Question> getQuestions(String filename,
-                                                                  int startPoint,
-                                                                  int endPoint,
-                                                                  int questionCount) throws IOException {
+    public List<Question> getAllQuestions(String filename, int startPoint, int endPoint) throws IOException {
         List<Question> questions = new ArrayList<>();
-        final long LINE_COUNT = countLines(filename, endPoint);
+        checkLineSize(filename, endPoint);
         try (BufferedReader br = new BufferedReader(new FileReader("uploads/" + filename))) {
             for (int i = 1; i < startPoint; i++) {
                 for (int j=0 ; j < QUESTION_LINE_SIZE; j++) {
@@ -32,7 +29,6 @@ public class ExamService {
                 }
             }
             String line = br.readLine();
-            int range = endPoint - startPoint;
             int questionNumber = 0;
             while (line != null && questionNumber != endPoint) {
                 Question questionGenerated = new Question();
@@ -60,6 +56,21 @@ public class ExamService {
             throw new FileNotFoundException(filename + " not found");
         }
         return questions;
+    }
+
+    public List<Question> getRandomQuestions(String filename,
+                                             int startPoint,
+                                             int endPoint,
+                                             int maxQuestions) throws IOException {
+        List<Question> questions = getAllQuestions(filename, startPoint, endPoint);
+        List<Integer> randomQuestions = randomNumbersGenerator(startPoint, endPoint, maxQuestions);
+        List<Question> result = new ArrayList<>();
+        for (int i=0 ; i < maxQuestions ; i++) {
+            int randomQuestionNumber = randomQuestions.get(i);
+            int index = randomQuestionNumber - startPoint;
+            result.add(questions.get(index));
+        }
+        return result;
     }
 
     private String removeNumber(String question) {
@@ -103,7 +114,7 @@ public class ExamService {
         return line;
     }
 
-    private long countLines(String filename, int endPoint) throws IOException {
+    private void checkLineSize(String filename, int endPoint) throws IOException {
         long lineCount = 0;
         try (BufferedReader br = new BufferedReader(new FileReader("uploads/" + filename))) {
             while(br.readLine() != null) {
@@ -115,7 +126,6 @@ public class ExamService {
         } catch (FileNotFoundException e) {
             throw new FileNotFoundException(filename + " not found");
         }
-        return lineCount;
     }
 
     private int getQuestionNumber(String question) {
@@ -126,12 +136,15 @@ public class ExamService {
         return  Integer.parseInt(question.substring(0, counter));
     }
 
-    private Set<Integer> randomNumbersGenerator(int startPoint, int endPoint, int questionCount) {
-        Set<Integer> randomNumbers = new HashSet<>();
+    private List<Integer> randomNumbersGenerator(int startPoint, int endPoint, int questionCount) {
+        List<Integer> randomNumbers = new ArrayList<>();
         int randomNumber;
         Random random = new Random();
         while (randomNumbers.size() < questionCount) {
             randomNumber = random.nextInt(endPoint - startPoint + 1) + startPoint;
+            if (randomNumbers.contains(randomNumber)) {
+                continue;
+            }
             randomNumbers.add(randomNumber);
         }
         return randomNumbers;
