@@ -1,4 +1,4 @@
-package com.project.examgenerator.exception;
+package com.project.examgenerator.exception.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
