@@ -1,0 +1,2094 @@
+1. What is the primary feature that distinguishes the Internet of Things (IoT) from regular internet-connected devices?
+√ IoT connects physical objects with the internet to gather and exchange data.
+• IoT devices only work for home automation purposes.
+• IoT devices require manual control at all times.
+• IoT devices are only connected to smartphones.
+• IoT devices don't require internet connectivity.
+2. Which of the following best describes the relationship between the "Internet" and "Things" in IoT?
+• IoT devices are just another form of traditional computing devices
+• IoT is primarily about replacing human intervention with fully automated systems
+• IoT focuses only on improving mobile applications
+√ The Internet is used to send, receive, and communicate information from connected objects
+• The Internet and Things are independent, working separately in a connected system
+3. What is the primary focus of the Internet of Things (IoT)?
+• Replacing personal computers with IoT devices
+• Developing better web applications
+• Improving social media interactions
+• Enhancing traditional computing devices
+√ Embedding computing power into everyday objects
+4. What is an example of Moore’s Law impacting the performance of a sensor in an IoT device?
+• Sensors becoming larger in size.
+• Sensors decreasing in number across devices.
+• Sensors requiring more power to function.
+• Sensors becoming less sensitive to environmental factors.
+√ Sensors becoming smaller, more accurate, and able to process more complex data due to advancements in chip technology.
+5. How does the "controller" in the IoT formula influence the system’s operation?
+• It only reads the actuator's outputs without any interaction.
+• It controls the internet connection directly without any other function.
+• It merely connects the device to the internet.
+• It only stores data from sensors.
+√ It processes data from sensors and sends commands to actuators based on pre-programmed logic.
+6. What is a major advantage of IoT in consumer products?
+• The restriction of devices to a single function.
+• Reduced communication between devices.
+• The absence of smart devices in daily life.
+√ The ability to enhance convenience, automation, and user experience.
+• Increased complexity that users must handle manually.
+7. What is an actuator in the context of IoT?
+• A sensor that detects physical changes.
+• A network protocol for communication.
+• A software program that analyzes data.
+√ A component that produces physical output based on the data collected by the device.
+• A device that stores data locally.
+8. How do IoT devices transmit data to the internet?
+• Only via wired connections
+• Using analog signals only
+√ Using network connectivity like Wi-Fi, Bluetooth, or cellular networks
+• By using traditional phone lines
+• Through short-range communication methods like NFC
+9. What does it mean for IoT devices to be 'first-class citizens on the Internet?
+√ They should use widely accepted protocols and conventions like IP.
+• They should always use low-powered, simplified communication methods.
+• They should prioritize custom protocols for better optimization.
+• They should function only within private networks and avoid open standards.
+• They should minimize their reliance on cloud services.
+10. Which of the following is used to capture data from the physical world in IoT devices?
+• Microprocessors
+• Microcontrollers
+• Controllers
+√ Sensors
+• Actuators
+11. Which of the following correctly represents the IoT formula?
+• Software Applications + Cloud + Internet = IoT
+• Devices + Microprocessors + Internet = IoT
+• Physical Objects + Network + Data Storage = IoT
+• Digital Devices + Cloud Computing + AI = IoT
+√ Physical Objects + Controller, Sensors, Actuator + Internet = IoT
+12. Which of the following privacy mechanisms is NOT commonly used in IoT devices?
+• Anonymization techniques to remove personally identifiable information (PII).
+• End-to-end encryption for secure data transmission.
+• Data hashing to protect stored user credentials.
+√ Open and publicly accessible databases for faster data retrieval.
+• Secure boot to prevent unauthorized firmware modifications.
+13. How does "graceful degradation" benefit IoT systems?
+• Requires users to manually fix errors before the device can function again.
+• Forces devices to switch to offline mode when a failure is detected.
+• Prevents all possible failures in the system.
+• Ensures that an IoT device shuts down completely when an error occurs.
+√ Allows a device to continue providing essential functions despite failures.
+14. What is the primary role of the Internet Protocol (IP)?
+• Managing application-layer communication
+• Resolving domain names to IP addresses
+• Ensuring error-free data transmission
+• Encrypting data for security
+√ Addressing and routing packets between devices
+15. Which of the following is a key characteristic of a well-designed IoT device that would prevent user frustration?
+• Complex setup processes
+• Continuous notifications
+• Always needing updates to function
+√ Simple and intuitive user interface
+• Lack of clear instructions
+16. Which port is associated with SMTP?
+• 53
+• 22
+• 80
+• 110
+√ 25
+17. Which port is used for HTTPS?
+• 80
+• 8080
+• 22
+√ 443
+• 21
+18. What does CIDR notation (e.g., /24) represent?
+• The MAC address prefix
+• The class of the IP address (A, B, or C)
+• The total number of available IP addresses
+√ The number of bits fixed in the subnet mask
+• The port range for a service
+19. Which protocol dynamically assigns IP addresses to devices on a network?
+• DNS
+• UDP
+• HTTP
+√ DHCP
+• TCP
+20. What is a risk of using high-cost platforms in prototyping?
+• Reduced functionality
+• Faster time-to-market
+• Limited community support
+• Incompatibility with open-source tools
+√ Higher initial investment with potential scalability issues
+21. What happens first in the DHCP process(DORA) ?
+• ARP cache update
+• DHCP Acknowledge message
+• DHCP Request message
+√ DHCP Discover message
+• DNS resolution
+22. What is the primary role of a router in an IP network?
+• Assign MAC addresses
+• Generate HTTP headers
+• Resolve domain names
+√ Forward packets between networks
+• Encrypt application-layer data
+23. What does the HTTP "GET" method typically request?
+• A secure connection
+• A DNS resolution
+• A MAC address
+√ A resource (e.g., a webpage or file)
+• A dynamic IP address
+24. What is a key consideration when choosing a prototyping platform?
+• Avoiding open-source platforms
+• Prioritizing aesthetics over functionality
+• Ensuring it’s the cheapest option
+• Using the same tools as competitors
+√ Balancing cost, familiarity, and scalability
+25. What is a primary benefit of starting with a prototype for an IoT device?
+• It allows skipping the manufacturing phase.
+• It increases production costs unnecessarily.
+• It eliminates the need for future testing.
+• It guarantees instant market success.
+√ It helps identify design flaws early in development.
+26. What is a benefit of using high-level languages in prototyping?
+• Closer hardware control
+• Guarantees lower power consumption
+• Eliminates electronic components
+√ Faster development
+• Reduced need for internet services
+27. Which factor is critical when selecting sensors for an IoT prototype?
+• Brand recognition
+• Exclusive patent rights
+• Low accuracy
+√ Compatibility with the chosen microcontroller
+• Color and aesthetics
+28. What is the main purpose of prototyping an IoT device?
+• To avoid needing an internet connection
+• To skip documentation
+• To use the most expensive components
+√ To test and improve the design before final production
+• To immediately sell the product to customers
+29. Which prototyping approach aligns with the “gift economy” ethos?
+• Using only closed-source tools
+• Sourcing firmware development
+• Avoiding hackspace collaborations
+√ Sharing schematics on GitHub for community improvement
+• Patenting all components before testing
+30. Why might a developer use a Raspberry Pi over an Arduino?
+• Lower unit cost for mass production
+• Exclusive use of closed-source software
+√ Higher-level programming capabilities and running an OS
+• No need for internet connectivity
+• Better for analog sensor inputs
+31. Which of the following is a key feature of the Arduino platform?
+• Exclusive closed-source libraries
+• No need for external power
+• Built-in 5G connectivity
+• High-level programming languages
+√ Easy-to-use IDE and community support
+32. What is the primary purpose of the April board in Electric Imp prototyping?
+√ Provide a basic impee for connecting sensors and actuators
+• Encrypt data transmissions
+• Replace the need for sensors
+• Store firmware updates
+• Replace the need for devices
+33. Which of the following is a key advantage of using Node.js in IoT prototyping?
+• All of these components
+• Exclusive access to proprietary features
+• Guaranteed compatibility with all sensors
+√ Simplified handling of asynchronous tasks
+• No need for testing or debugging
+34. What is the primary purpose of the Raspberry Pi’s GPIO pins?
+• Encrypt data transmissions
+• All of these components
+• Store firmware updates
+√ Connect sensors and actuators to the board
+• Replace the need for sensors
+35. What is the primary purpose of a cape in BeagleBone prototyping?
+• Replace the need for sensors
+• Protect the BeagleBone from physical damage
+• Encrypt data transmissions
+• Simplify firmware updates
+√ Extend functionality with additional modules (e.g., LCD, motors)
+36. Which device is more likely to be used in projects requiring multitasking and high computational power?
+• STM32
+• Neither
+√ Raspberry Pi
+• Both
+• Arduino
+37. Which of the following statements correctly describes the fundamental difference between Arduino and Raspberry Pi?
+• Arduino is a full-fledged computer, whereas Raspberry Pi is a simple microcontroller board.
+• Arduino requires an operating system to function, whereas Raspberry Pi does not.
+• Raspberry Pi is primarily used for real-time tasks, while Arduino is designed for multitasking and running an operating system.
+√ Arduino is based on a microcontroller, while Raspberry Pi is based on a microprocessor.
+• Both Arduino and Raspberry Pi use the same type of processor and serve the same purpose.
+38. What is the purpose of the const keyword in Arduino?
+• Handles interrupts
+• Pauses the program
+√ Defines a constant
+• Initializes a function
+• Declares a variable
+39. What is the name of the microcontroller used in Arduino Uno?
+• ESP8266
+• ATmega2560
+• ARM Cortex-M3
+√ ATmega328
+• PIC18F4550
+40. What is the primary programming language for Arduino?
+• C#
+• Java
+• Rust
+√ C++
+• JavaScript
+41. Which Arduino board is the smallest in size?
+• Arduino Due
+• Arduino Leonardo
+• Arduino Uno
+• Arduino Mega 2560
+√ Arduino Nano
+42. What is the purpose of the attachInterrupt() function in Arduino?
+• Initializes serial comms
+• Sets a pin HIGH or LOW
+• Reads an analog input
+√ Handles interrupts
+• Pauses the program
+43. Which of the following is a standard interface for connecting sensors to microcontrollers?
+• POP3
+• Bluetooth
+• SMTP
+√ I2C
+• HTTP
+44. Which of the following is a common sensor used in IoT prototyping?
+• LED
+• Piezo buzzer
+√ Pushbutton
+• Stepper motor
+• Solenoid
+45. Which two operating systems are recommended for Raspberry Pi?
+• Android, Chrome OS
+• Arch Linux, CentOS
+√ Raspbian, Occidentalis
+• Windows, macOS
+• Ubuntu, Fedora
+46. What is the purpose of the Raspberry Pi Camera Module?
+• Play audio
+• Control pins
+√ Capture images and video
+• Detect motion
+• Measure temperature
+47. What is the purpose of the ping command on Raspberry Pi?
+• Monitor system performance
+• Check system logs
+• Install software
+√ Test network connectivity
+• Update the OS
+48. What is the purpose of the GPIO pins on the Raspberry Pi?
+• Video output
+• Data storage
+• Power supply
+√ General-purpose input/output
+• Audio output
+49. What is the purpose of the abs() function in Arduino?
+• Reads an analog input
+√ Returns absolute value
+• Sets a pin HIGH or LOW
+• Initializes serial comms
+• Pauses the program
+50. Which Arduino board is best for projects requiring a small power consumption?
+• Arduino Due
+• Arduino Leonardo
+• Arduino Uno
+• Arduino Mega 2560
+√ Arduino Nano
+51. What is one limitation of vacuum forming?
+• It works only with glass
+• It burns paper
+• It always cracks the mold
+• It needs wireless access
+√ It cannot handle deep or detailed shapes but is good for creating quick plastic shells because it explains the concept thoroughly and provides an example.
+52. What is the use of a bolted tenon joint in laser-cut designs?
+• It enables electrical contact
+• It allows magnetic locking
+√ It allows secure mechanical joining of two parts using bolts and embedded nuts because it explains the concept thoroughly and provides an example.
+• It creates sliding doors
+• It hides glue
+53. What is the benefit of using epoxy putty in prototyping?
+• It works as a soldering agent
+• It dissolves in water
+• It evaporates quickly
+√ It can be molded and then hardens into a durable shape suitable for sanding and painting because it explains the concept thoroughly and provides an example.
+• It melts like wax
+54. What is the advantage of using Thingiverse for prototyping?
+• It teaches programming
+√ It offers a large collection of free, modifiable design files for 3D printing because it explains the concept thoroughly and provides an example.
+• It sells tools
+• It stores audio files
+• It lists phone specs
+55. Why use cardboard for prototyping?
+• It conducts electricity
+• It is waterproof
+• It resists heat well
+√ It is cheap, easy to shape, and helps sketch shapes for further cutting because it explains the concept thoroughly and provides an example.
+• It lasts longer than metal
+56. What is the main advantage of joining a local hackspace or makerspace?
+• Access to design patents
+• Cheaper internet
+• Meeting investors
+√ Access to tools like 3D printers and laser cutters and a community of experienced makers because it explains the concept thoroughly and provides an example.
+• Free raw materials
+57. What is one key reason the Internet of Things (IoT) needs better product design?
+• To enhance battery life
+• To reduce manufacturing costs
+• To increase internet speed
+• To make devices smaller
+√ To help devices achieve mass appeal and improve user experience because it explains the concept thoroughly and provides an example.
+58. Why is HTTPS preferred over HTTP for API requests?
+• It allows multi-threading.
+• It enhances LED brightness.
+• It consumes less energy.
+• It expands device memory.
+√ It encrypts data in transit, protecting it from eavesdropping or tampering.
+59. What is the main drawback of using screen-scraping for IoT integration?
+• It causes overcharging.
+• It is the slowest data transfer method.
+• It consumes more electricity.
+√ It is fragile and can break if the webpage layout or wording changes.
+• It limits the lifespan of sensors.
+60. What does an API key function as in IoT systems?
+• It recalibrates sensors.
+• It cools down the processor.
+• It manages cloud storage.
+√ It uniquely identifies and authenticates the user or device accessing the service.
+• It updates display brightness.
+61. What is long polling in the context of real-time IoT communication?
+• It encrypts each packet.
+• It boosts signal power.
+• It compresses data for speed.
+√ It is a method where the client sends a request and the server holds the connection open until new data is available.
+• It uses JavaScript to log errors.
+62. Why is screen-scraping considered fragile for IoT data collection?
+• It enhances security.
+• It supports multi-threading.
+• It consumes less memory.
+√ Changes in website UI can break automated navigation, which relies on specific elements or labels.
+• It increases signal range.
+63. What role does the Internet play in the Internet of Things (IoT)?
+• It allows devices to communicate wirelessly.
+• It enhances battery life.
+• It replaces the need for sensors.
+√ It allows devices to communicate, aggregate data, enable remote control, and connect physical objects to the digital world.
+• It creates magnetic fields for communication.
+64. What is the purpose of slicing software in 3D printing?
+• To edit photos
+• To cut raw materials
+√ To convert 3D models into printable instructions by dividing them into layers because it explains the concept thoroughly and provides an example.
+• To measure object weight
+• To attach model parts
+65. What is Fused Filament Fabrication (FFF)?
+• A welding method
+• A type of molding glue
+• A coloring technique
+√ A 3D printing method that extrudes heated plastic filament to build objects layer by layer because it explains the concept thoroughly and provides an example.
+• A laser etching process
+66. What software is commonly used to create laser cutting designs?
+• Photo filters apps
+• MP3 editing tools
+√ Vector-based software like CorelDRAW, Illustrator, or Inkscape for precise line control because it explains the concept thoroughly and provides an example.
+• Excel spreadsheets
+• Web browsers
+67. Why might customers be skeptical of Internet of Things products?
+• They prefer analog products
+• They dislike wireless technology
+• They lack technical knowledge
+• They don’t trust cloud computing
+√ Fear the service will shut down and the product will stop working
+68. What key idea is associated with Chris Anderson's “long tail” model?
+√ Niche products can find profitable markets online
+• Businesses should focus only on bestsellers
+• Profit comes only from physical stores
+• Reducing inventory increases popularity
+• Advertising doesn’t affect online success
+69. In early societies, what economic model was commonly used within tribes?
+• Subscription economy
+• Coin-based trade
+√ Gift economy which was common
+• Online marketplace
+• Freemium economy
+70. Which library is designed to provide multitasking in embedded systems?
+• BusyBox
+• uClibc
+• Wireshark
+√ Atomthreads
+• lwIP
+71. What is a downside of single-pass parsing?
+• It fails in C++ environments
+• It requires a dedicated display
+• It consumes more flash storage
+√ You can’t go back once a data chunk is discarded
+• It mandates recursion
+72. What can happen when an embedded device runs out of memory?
+• It reboots into safe mode
+• It displays an error on-screen
+√ It stops functioning mysteriously
+• It updates the firmware
+• It automatically sends
+73. Why is it important for embedded devices to run for long periods without user intervention?
+• They have external storage systems.
+• They are mostly voice-controlled.
+• They update themselves weekly.
+√ They are often "set and forget" devices expected to operate continuously.
+• They have advanced cooling systems.
+74. What should developers do before building the IoT device code?
+• Enable BIOS-level backups.
+√ Ensure the API is functional and tested to guarantee communication is reliable.
+• Test the battery for 48 hours straight.
+• Install dual-layer screens.
+• Encrypt the network MAC.
+75. What is a potential legal concern with screen-scraping?
+• It activates third-party ads.
+• It disables encryption.
+• It triggers automatic data deletion.
+• It requires government licensing.
+√ It may violate terms of service or copyright laws of the source website.
+76. What does using const variables help the compiler do?
+• Format strings for display
+• Schedule garbage collection
+• Synchronise sensor data
+√ Optimise memory usage and store constants in flash
+• Initialize dynamic buffers
+77. Which type of memory is volatile and used for working data?
+• Cache
+• Flash
+• ROM
+√ RAM
+• EEPROM
+78. What is the purpose of using packet sniffers like Wireshark in IoT debugging?
+• To block malware
+• To simulate Bluetooth devices
+• To log UI activity
+√ To monitor network traffic and diagnose connectivity issues
+• To refresh firmware
+79. What is the purpose of libraries like lwIP and uIP?
+• Enable HTML rendering
+• Provide media streaming
+√ Provide lightweight TCP/IP stack implementations for embedded systems
+• Connect GPS modules
+• Increase LED brightness
+80. Why is polling considered less efficient than event-driven models?
+• Polling disables sensors
+• Polling is incompatible
+√ Polling keeps the system active and drains power
+• Polling requires storage
+• Polling
+81. What is a major risk of recursive algorithms in embedded systems?
+• Battery damage
+• Compiler crashes
+√ Stack overflow due to uncontrolled depth
+• Constant time complexity
+• Heap corruption
+82. What does MQTT stand for?
+• Matrix Quantization Telemetry Tag.
+• Multi Query Transformation Toolkit.
+• Micro Quantum Tracking Technique.
+√ Message Queue Telemetry Transport, a lightweight publish/subscribe messaging protocol.
+• Massive Queue Traffic Transport.
+83. What is the Comet technique used for?
+• Enhancing graphical rendering.
+• Increasing ambient noise sensing.
+• Speeding up video streaming.
+• Reducing solar charging times.
+√ Enabling real-time server-to-client communication by holding HTTP connections open.
+84. What is a pogo pin?
+• A debugging port
+• A heatsink
+• A type of antenna
+• A mounting screw
+√ A spring-loaded contact for testing PCBs
+85. What is a pick-and-place machine used for?
+• Burning firmware
+• Adjusting WiFi channels
+• Shipping products
+• Designing PCBs
+√ Automatically placing components on PCBs
+86. What is the final step before manufacturing a PCB?
+• Coding the UI
+• Printing manuals
+√ Design rule check
+• Creating ads
+• Marketing
+87. What is the main function of the schematic view in PCB design?
+• To calculate battery life
+• To draw 3D casing
+• To list all certifications
+√ To logically represent how components are connected
+• To generate BOMs
+88. What is the silkscreen layer used for?
+√ Labeling component positions and version info
+• Blocking radiation
+• Heat management
+• Protecting software
+• Securing WiFi credentials
+89. What is a BOM (Bill of Materials)?
+• A project management tool
+• A list of customer addresses
+• An electronics safety report
+√ A detailed list of all product components and costs
+• A cloud deployment checklist
+90. What is one simple way to share a DIY project online?
+• Ship it to a YouTuber
+• Create a mobile app
+• Apply for a tech patent
+√ Post the design and code on Instructables
+• Send it to a university
+91. What is necessary to avoid product damage in shipping?
+• Temperature-controlled storage
+• Bubble wrap from recycled material
+• Extra screws
+√ Custom packaging design
+• Extra labeling
+92. What is the first thing to consider before mass-producing your prototype?
+• Hiring influencers
+• Buying a soldering robot
+• Finding a distributor
+• Designing custom logos
+√ Estimating how many units you might sell
+93. What business model involves users contributing small amounts of money before a product is made?
+• Manufacturer’s warranty
+• Subscription bundles
+√ Crowdfunding
+• Loan financing
+• Angel investing
+94. Why might some IoT products fail after the company shuts down?
+• The hardware self-destructs
+• The product stops accepting batteries
+√ The device depends on cloud services that may be discontinued
+• The warranty voids instantly
+• The software gets open-sourced
+95. What is a typical expectation from a venture capitalist (VC)?
+• Patent ownership
+• 100% control over hiring
+√ A return on investment, often through company exit
+• Unlimited equity
+• Daily progress updates
+96. What characterizes a freemium model?
+• Free for enterprises, paid for individuals
+• Pay once and use forever
+√ Free basic services with paid premium features
+• Free product for a trial period only
+• Pay-per-use pricing only
+97. What does the “Cost Structure” section of the Business Model Canvas address?
+• External funding
+• Shipping logistics
+√ The major expenses and their implications
+• The price of the product
+• The cost of customer acquisition
+98. What does the “Customer Segment” box in the Business Model Canvas refer to?
+• Influencer partnerships
+• The organizational chart
+• A breakdown of revenue
+√ The target group of users for the product
+• The staff responsible for sales
+99. What aspect of Ford's manufacturing helped reduce vehicle costs?
+• Subscription-based maintenance
+• Direct-to-consumer online sales
+• Outsourcing engineering to Europe
+• Use of electric cars only
+√ Standardized mass production techniques
+100. What is a common pessimistic concern about technology?
+• It helps us connect globally
+• It improves efficiency in manufacturing
+• It enhances our education systems
+• It leads to longer lifespans
+√ It can destroy jobs and reduce employment opportunities
+101. What is the purpose of a draft angle in mould design?
+• Enhances color quality
+• Improves WiFi signal
+• Increases wall thickness
+√ Helps remove parts from the mould cleanly
+• Enables RFID pairing
+102. What is one ethical concern with Internet-connected wearables?
+• They have short battery life
+• They can cause allergies
+• They are too colorful
+√ They can transmit sensitive personal data without the wearer’s full awareness
+• They are hard to clean
+103. What does 'sousveillance' refer to?
+• Mobile device monitoring
+• Internet traffic control
+• High-definition surveillance
+√ The monitoring of authorities by citizens using decentralized recording devices
+• Company-level security audits
+104. What does IoT consist of?
+• Networks and data centers
+• Apps and mobile phones
+• Wireless devices and wearables
+√ Physical objects with sensors and actuators connected via internet services
+• Smartphones and social media
+105. What is one way IoT can help address environmental challenges?
+• By increasing oil drilling
+• By disabling cars
+• By producing more plastic
+√ By enabling precise, real-time monitoring of energy, water, and pollution for better resource use
+• By replacing forests with devices
+106. What is one environmental concern with producing IoT devices?
+• Devices use recycled plastic
+• Sensors melt in heat
+• Chips are too large
+√ The use of rare earth minerals that require destructive mining and refining processes
+• Devices attract insects
+107. What might result from combining smart meter data with supermarket loyalty card data?
+• Improved web ads
+• Automatic kitchen cleaning
+• Better-tasting food
+• Shorter shopping queues
+√ Intrusive personal profiling and privacy risks through detailed behavioral insights
+108. What is the ethical danger of requiring employees to wear IoT devices?
+• It helps communication
+• It reduces sick days
+• It boosts performance
+• It lowers insurance premiums
+√ It can lead to coercive or exploitative monitoring under the guise of productivity or health tracking
+109. How might crowdsourced sensor networks challenge traditional authority structures?
+• By blocking internet access to governments
+• By tracking politicians in real time
+• By eliminating electricity use
+√ By enabling citizens to collect and share environmental or societal data without depending on government institutions
+• By requiring expensive licenses
+110. Why might citizens resist the deployment of smart electricity meters?
+• Because they cause electricity bills to increase
+• Because they replace gas meters
+• Because they are hard to install
+√ Because they can reveal detailed behavioral patterns that could infringe on personal privacy
+• Because they use outdated technology
+111. What is the ethical risk of control in IoT?
+• They replace jobs
+• They require frequent updates
+• They can overheat
+• They reduce sound quality
+√ IoT devices can be used by others to impose expectations or track behavior without clear consent
+112. What data analysis risk do smart meters present?
+• They make electricity more expensive
+• They are hard to read
+• They are slow to install
+√ They allow inference of household behaviors from consumption patterns and combined datasets
+• They fail during storms
+113. Why is “access to one’s own data” considered a core ethical principle in IoT?
+• Because it is stored locally
+• Because it helps ads
+• Because data is expensive
+• Because companies demand it
+√ Because individuals should have the right to see, understand, and control how data about them is used
+114. What is an ethical issue with IoT “smart” toys for children?
+• They’re less fun
+• They break easily
+• They cost more
+√ They may collect sensitive data about minors without adequate consent or security
+• They’re louder
+115. What is the main ethical benefit of using open source software in IoT devices?
+• It slows development
+• It hides vulnerabilities
+• It limits creativity
+√ It promotes transparency, community review, and shared improvement
+• It reduces profits
+116. What is one major ethical risk of IoT in authoritarian regimes?
+• It promotes democracy
+• It disables censorship
+• It forces phone upgrades
+• It enables free speech
+√ It can become a tool for state surveillance and oppression of dissenting voices
+117. What is a major privacy risk of using fitness tracking apps?
+• They count steps inaccurately
+• They increase battery usage
+• They make users run slower
+• They require headphones
+√ They can reveal patterns in user routines and home locations to potential attackers
+118. The term "ubiquitous computing" is closely related to which of the following concepts in IoT?
+• Computing that requires internet cables for connectivity.
+• Computing with limited connectivity.
+• Computing that only works in specific areas like offices.
+√ Computing everywhere, embedded in everyday objects.
+• Only used in smartphones.
+119. What is a key characteristic of "graceful degradation" in IoT design?
+• Devices should prioritize complex computations over usability
+• Devices should stop working entirely if security is compromised
+• Devices should only work when connected to a cloud system
+√ Devices should continue to function, even with partial failures
+• Devices should shut down if an internet connection is lost
+120. Which term is preferred over "ambient computing" when designing IoT systems?
+• Ubiquitous technology
+• Context-aware computing
+√ Calm technology
+• Cyber-physical systems
+• Artificial intelligence
+121. What role do sensors play in an IoT system?
+• Sensors replace the need for controllers in the system.
+• Sensors only display information to the user.
+• Sensors store information locally on the device.
+√ Sensors collect real-world data that informs the system’s decisions and actions.
+• Sensors control how data is transmitted over the internet.
+122. According to Moore's Law, what happens to the number of transistors on a microchip over time?
+• It increases in an unpredictable pattern.
+• It quadruples every year.
+√ It doubles approximately every two years.
+• It remains constant.
+• It decreases over time.
+123. What is a "thing" in the context of the Internet of Things?
+• A device that only performs manual tasks.
+• A sensor without connectivity.
+• Only electronic gadgets like smartphones and computers.
+• Any object that is not connected to the internet.
+√ Any physical object that can connect to the internet and interact with other devices.
+124. How do IoT devices contribute to “smart” environments?
+• They only provide entertainment options.
+• They replace traditional computing devices entirely.
+• They only interact with users via apps.
+√ They automate tasks and make real-time decisions based on data.
+• They perform tasks that don’t involve data collection.
+125. What does an API enable in modern web and IoT applications?
+• It limits web apps to be used only from browsers.
+• It replaces the need for sensors and controllers in IoT.
+• It makes web applications less interactive.
+√ It allows other programs to interact with services.
+• It prevents mobile apps from connecting to online platforms.
+126. Which IoT component is responsible for taking action based on sensor input?
+• Sensor
+• Controller
+• Internet
+√ Actuator
+• Physical object
+127. In the IoT formula, what is the role of "Physical Objects"?
+• They replace the need for traditional sensors
+• They store and process data for IoT systems
+• They provide internet connectivity to the system
+√ They are real-world items that become smart when connected to the internet
+• They function as the main controller of the IoT system
+128. A well-designed IoT device should prioritize which of the following?
+• Using proprietary protocols instead of industry standards.
+• Permanent cloud dependency for core functionality.
+• Disabling local functionality when the internet is unavailable.
+√ Seamlessly integrate with other systems and technologies.
+• A closed system with no support for third-party integrations.
+129. Which of the following statements about 6LoWPAN is FALSE?
+• 6LoWPAN is commonly used in industrial and smart home applications.
+• 6LoWPAN enables low-power IoT devices to communicate over IPv6 networks.
+√ 6LoWPAN is designed to support high-bandwidth applications like video streaming.
+• 6LoWPAN optimizes IPv6 for constrained devices with limited power and memory.
+• 6LoWPAN allows wireless sensor networks to use standard Internet protocols.
+130. Which principle of IoT design ensures that devices operate in the background with minimal user interaction?
+• Manual Intervention
+• High Availability
+• Graceful Degradation
+• Centralized Control
+√ Calm and Ambient Technology
+131. What does "WPAN" stand for in 6LoWPAN?
+• Wide Personal Area Network
+• Wireless Private Area Network
+• Wireless Protocol Area Network
+√ Wireless Personal Area Network
+• Wired Personal Area Network
+132. Which port range is reserved for "well-known" services?
+• 49152–65535
+• 2000–2999
+• 1024–49151
+√ 0–1023
+• 8000–8080
+133. Which IP range is reserved for private networks?
+• None of them
+• 169.254.x.x
+• 8.8.8.x
+√ 192.168.x.x
+• 172.32.x.x
+134. At which OSI layer do MAC addresses operate?
+• Transport layer
+• Physical layer
+• Application layer
+√ Link layer
+• Network layer
+135. Which protocol guarantees reliable message delivery with retransmissions and acknowledgments?
+• DNS
+• DHCP
+• UDP
+• HTTP
+√ TCP
+136. Which development approach is emphasized for IoT prototyping?
+√ Agile and iterative
+• Proprietary-only tools
+• Waterfall model
+• Big design upfront
+• Outsourced development
+137. Which HTTP status code indicates success?
+• 500 Internal Server Error
+• 302 Redirect
+• 403 Forbidden
+√ 200 OK
+• 404 Not Found
+138. Which HTTP header is required in HTTP/1.1 requests?
+• User-Agent
+• If-Modified-Since
+√ Host
+• Cache-Control
+• Accept-Language
+139. Which port is commonly used for SSH?
+• 53
+• 443
+• 80
+√ 22
+• 25
+140. Which protocol operates at the application layer?
+• TCP
+• Ethernet
+• UDP
+√ HTTP
+• IP
+141. What is a strategic advantage of using open-source components?
+• Guaranteeing hardware compatibility
+√ Leveraging community contributions and improvements
+• Simplifying legal patent processes
+• Restricting access to competitors
+• Reducing the need for prototyping
+142. Which component is NOT part of the three main areas to prototype in parallel for an IoT device?
+√ Sales strategy
+• Physical design
+• Electronics
+• All are components
+• Internet service
+143. Which phase is crucial after creating a functional prototype?
+√ Iterative testing and refinement
+• Immediate mass production
+• Patent filing
+• Discontinuing development
+• Switching platforms entirely
+144. What is an advantage of using cloud services in IoT prototypes?
+• Reduced need for internet connectivity
+• Elimination of data security concerns
+• Guaranteed real-time performance
+√ Scalable infrastructure and easy access
+• High hardware costs
+145. Which three components are built in parallel for an IoT prototype?
+• Batteries, sensors, and cloud storage
+• All are components
+• Marketing plan, packaging, and user manual
+• Mobile app, website, and social media
+√ Physical design, electronics, and internet service
+146. Why might a startup avoid open-sourcing its IoT device’s server code?
+• Lowers hardware manufacturing costs
+• Reduces dependency on community support
+• Simplifies scaling to cloud infrastructure
+√ Protects proprietary business logic or unique configurations
+• Ensures backward compatibility
+147. What does the “Geocities of Things” metaphor imply about IoT prototyping?
+• Reliance on proprietary corporate platforms
+• Elimination of open-source tools
+• Focus on mass-market scalability
+√ Early-stage experimentation with clunky but creative designs
+• Standardized industrial design principles
+148. What can be the primary purpose of a microcontroller in IoT prototyping?
+• Store large datasets
+• Generate high-resolution graphics
+• Host web services
+• Encrypt data for secure transmission
+√ Process inputs and control outputs
+149. Which of the following is a key advantage of using open-source hardware in IoT prototyping?
+• No need for testing or debugging
+• Privacy
+• Guaranteed compatibility with all sensors
+√ Access to community-driven improvements and documentation
+• Exclusive access to proprietary features
+150. What is the primary purpose of the Ångström OS in BeagleBone prototyping?
+• Replace the need for device
+• Encrypt data transmissions
+• Replace the need for sensors
+√ Provide a lightweight Linux distribution for embedded devices
+• Store firmware updates
+151. Which of the following is a common use case for the BeagleBone in IoT prototyping?
+• Projects focused on analog signal processing
+• Projects with no need for sensors
+√ Projects requiring multiple GPIO pins and ADCs
+• Projects requiring low power consumption
+• Simple projects with minimal hardware requirements
+152. Which of the following is a key advantage of using Python in IoT prototyping?
+• Exclusive access to proprietary features
+• No need for testing or debugging
+√ Simplified handling of strings and network communication
+• Low costs
+• Guaranteed compatibility with all sensors
+153. What type of hardware is Arduino based on?
+• Microprocessor
+• SoC (System on Chip)
+• FPGA
+√ Microcontroller
+• GPU
+154. What is the purpose of the noTone() function in Arduino?
+• Reads an analog input
+• Initializes serial comms
+• Pauses the program
+√ Stops generating a tone
+• Sets a pin HIGH or LOW
+155. What is the purpose of the loop() function in Arduino?
+√ Repeats continuously
+• Runs once at startup
+• Handles interrupts
+• Reads analog inputs
+• Sends data over serial
+156. What is the purpose of the delay() function in Arduino?
+• Sends data over serial
+• Sets pin modes
+• Handles interrupts
+• Reads analog inputs
+√ Pauses the program
+157. Which Arduino board is best for prototyping?
+√ Arduino Uno
+• Arduino Leonardo
+• Arduino Due
+• Arduino Nano
+• Arduino Mega 2560
+158. Which of the following is a common sensor used for detecting user interaction in IoT prototyping?
+• Piezo buzzer
+• Thermistor
+• Accelerometer
+√ Pushbutton
+• LDR
+159. What is the function of an ADC (Analog-to-Digital Converter) in IoT devices?
+• Generate analog signals from digital values
+• Store firmware updates
+• Connect to wireless networks
+√ Convert varying voltages into digital values
+• Encrypt data for secure transmission
+160. What is the purpose of try... catch... logic in Python on Raspberry Pi?
+• Reduce memory usage
+• Speed up code execution
+• Restart
+• Improve network performance
+√ Trap and handle errors
+161. What is the purpose of the Raspberry Pi Apache server?
+• Control motors
+• Store data
+• Capture images
+• Play audio
+√ Host websites
+162. What is the purpose of the ls command on Raspberry Pi?
+• Install software
+• Monitor system performance
+• Check system logs
+√ List directory contents
+• Update the OS
+163. What is the purpose of the ssh command on Raspberry Pi?
+• Hardware diagnostics
+√ Remote access
+• Software installation
+• System shutdown
+• File transfer
+164. What is the primary purpose of the Raspberry Pi?
+• Medical devices
+• Space exploration
+• Gaming
+• Industrial automation
+√ Education
+165. What is the primary programming language for Arduino?
+• JavaScript
+• C#
+• Swift
+• Java
+√ C++
+166. Which Arduino board is best for projects requiring a small RAM footprint?
+• Arduino Due
+• Arduino Leonardo
+• Arduino Uno
+• Arduino Mega 2560
+√ Arduino Nano
+167. What should be done before printing a final 3D model?
+• Reboot the printer five times
+• Install antivirus software
+√ Perform calibration tests to fine-tune settings like temperature and fill density for quality prints because it explains the concept thoroughly and provides an example.
+• Add cooling gel
+• Cover the print with wax
+168. Why is slicing software critical for 3D printing success?
+• It colors the model
+• It sends SMS alerts
+• It changes printer shape
+√ It generates the layer-by-layer instructions that tell the printer how to construct the model because it explains the concept thoroughly and provides an example.
+• It applies thermal resistance
+169. What makes extruded polystyrene useful for mockups?
+• It glows in the dark
+• It is magnetic
+• It conducts electricity
+√ It is thick, durable, and can be shaped easily using hot-wire cutters or sandpaper because it explains the concept thoroughly and provides an example.
+• It is transparent
+170. What is one of the lessons from designing the Ackers Bell?
+• Never use solenoids
+• Always use plastic
+• Avoid wooden parts
+√ Prototype thoroughly and test designs early to avoid difficult fixes later because it explains the concept thoroughly and provides an example.
+• Skip testing steps
+171. What is the primary use of modelling clay in design?
+• Painting prototypes
+• Making electronic circuits
+• Creating final products
+√ Short-term explorations of form due to its malleability because it explains the concept thoroughly and provides an example.
+• Testing temperature resistance
+172. What is the first step in preparing for product design?
+• Purchasing design software
+• Copying existing products
+• Memorizing product specs
+• Reading design history books
+√ Developing an interest in the world around you and observing design elements because it explains the concept thoroughly and provides an example.
+173. Which device is more commonly used for simple IoT sensors and actuators?
+• Neither
+• ESP32
+• Raspberry Pi
+• Both
+√ Arduino
+174. What makes JSON a preferred format for IoT API communication?
+• It provides hardware acceleration.
+• It resizes images quickly.
+• It supports video streaming.
+√ It is lightweight, easy to parse, and supported across multiple programming languages.
+• It encrypts messages automatically.
+175. Why do IoT systems use MAC addresses for device identification?
+• They reduce screen brightness.
+• They increase Bluetooth range.
+• They manage Wi-Fi passwords.
+√ MAC addresses are unique identifiers that help associate a device with a user or session.
+• They disable GPS tracking.
+176. What advantage does REST have over other API protocols in IoT systems?
+• It enhances battery life automatically.
+• It improves camera resolution.
+• It processes data using GPUs.
+√ It aligns closely with HTTP methods and is simple and effective for basic resource manipulation.
+• It can be used without an Internet connection.
+177. What benefit does MQTT provide in IoT communication?
+• It uses Python exclusively.
+• It works only with XML.
+• It disables remote access.
+√ It offers lightweight publish/subscribe messaging suited for constrained devices and low-bandwidth networks.
+• It supports only Wi-Fi.
+178. What is the advantage of using REST for IoT APIs?
+• It visualizes data in 3D.
+• It encrypts data automatically.
+• It supports quantum computing.
+√ It is simple, widely supported, and maps directly to standard HTTP methods for managing resources.
+• It extends battery life.
+179. Why might relying solely on third-party services for IoT devices be risky?
+• They require frequent restarts.
+• They consume more power.
+• They increase memory usage.
+√ If the third-party service is discontinued or changes its API, the IoT device may become nonfunctional unless reprogrammed.
+• They limit sensor range.
+180. What is a key difference between 3-axis and 5-axis CNC mills?
+√ 5-axis mills offer more movement and flexibility, including two rotational axes because it explains the concept thoroughly and provides an example.
+• 3-axis mills are slower
+• 5-axis mills cannot cut metal
+• 5-axis mills use glue
+• 3-axis mills work underwater
+181. What is an advantage of laser sintering in 3D printing?
+√ It creates strong, detailed parts from metal or nylon using laser-fused powder because it explains the concept thoroughly and provides an example.
+• It uses water jets
+• It glues plastic sheets
+• It inflates objects with air
+• It freezes liquid metal
+182. What are 'living hinges' in laser-cut designs?
+• Steel bolts that rotate
+• Welded iron joints
+• Flexible plastic glue
+√ A series of small cuts that allow flat material to bend without breaking because it explains the concept thoroughly and provides an example.
+• Foamboard slots
+183. What is a key benefit of laser cutting?
+√ It allows fast, precise cutting and etching of complex patterns on various materials because it explains the concept thoroughly and provides an example.
+• It works underwater
+• It engraves diamonds best
+• It can weld metals automatically
+• It replaces painting tools
+184. What is the purpose of the Business Model Canvas?
+• To write investor reports
+• To create a marketing campaign
+• To design a prototype
+√ To help visualize and iterate a business model using nine building blocks
+• To manage payroll
+185. What technology enabled long-distance trade by preserving food through time?
+• Telegraph
+• Blockchain
+• Telegraph
+√ Preservation methods like salting and smoking
+• Rail transport
+186. What debugging tool can intercept network traffic for analysis?
+• JTAG
+• Atomthreads
+• gdb
+• BusyBox
+√ Wireshark
+187. What is memcpy() used for in embedded systems?
+• Uploading firmware
+• Monitoring power usage
+• Displaying sensor values
+• Formatting SD cards
+√ Efficiently copying blocks of memory
+188. What is memory fragmentation associated with?
+• Slow CPU clocks
+• Incorrect stack recursion
+• Insufficient flash memory
+√ Heap memory allocation and deallocation
+• Long boot times
+189. What is a key strategy for managing memory in embedded systems?
+• Increase virtual memory
+• Enable swap space
+• Connect external RAM
+√ Avoid dynamic memory allocation at runtime
+• Use cloud-based paging
+190. Why should you declare variables as const in embedded systems?
+• To activate GPU acceleration
+• To make them load faster
+• To improve syntax
+√ To allow them to be stored in flash instead of RAM
+• To enable multi-threading
+191. What is the risk of inadequate security in an IoT product?
+• They convert JSON to XML.
+• They improve graphics rendering.
+• They delete unused timers.
+√ Cookies store session tokens after login, allowing users to make further authenticated requests without resending credentials.
+• They add widgets to web pages.
+192. How do timers communicate with an API in a RESTful IoT system?
+• By modifying BIOS settings.
+• By uploading zip files.
+• By broadcasting over AM radio.
+√ By sending POST, PUT, and DELETE requests with identifying data and parameters.
+• By recharging firmware.
+193. What issue arises when stack memory is exhausted?
+• Flash lockout
+• Compilation error
+• Memory leak
+• EEPROM corruption
+√ Stack overflow
+194. Why is dynamic memory allocation discouraged in embedded systems?
+• It disables interrupts automatically
+√ It can lead to unpredictable memory usage and fragmentation
+• It requires real-time garbage collection
+• It speeds up execution too much
+• It forces recursion in algorithms
+195. What is a major downside of using printf-style debugging in embedded systems?
+• It overwrites EEPROM
+• It affects PWM signals
+• It disables interrupts
+√ Log messages may not get written before a crash
+• It resets the device
+196. Which of the following improves performance by reducing CPU instruction reloading?
+• Using nested functions
+• Recompiling RAM
+• Using XML over JSON
+√ Placing the more likely condition in the if block
+• Avoiding loops
+197. What is a key strategy to conserve battery life in embedded systems?
+• Disable interrupts
+• Avoid constant Wi-Fi
+• Use RGB displays
+√ Put the processor to sleep when idle
+• Increase polling intervals
+198. What is the function of a message broker in MQTT?
+• It filters out encrypted data.
+• It deletes older protocols.
+• It disables unused ports.
+√ It routes published messages to all subscribers of a topic.
+• It formats email headers.
+199. What does 'long polling' aim to achieve in web communication?
+• It reboots devices automatically.
+• It disables cookies.
+• It increases screen refresh rates.
+• It cools devices faster.
+√ It reduces delay by waiting for data before closing the connection.
+200. What process is used to make plastic cases at scale?
+• 3D painting
+• Etching
+• CNC engraving
+√ Injection moulding
+• PCB layering
+201. What does “tape and reel” refer to in assembly?
+• The packaging technique
+• A method of wireless testing
+• A way to store documentation
+√ How components are supplied for machines
+• Bluetooth pairing mode
+202. What is typically required to make a PCB at home?
+√ Etching chemicals and stencils
+• 3D printer only
+• Vacuum sealer
+• A lathe machine
+• An Android phone
+203. What is the function of “air wires” in PCB software?
+• WiFi signal paths
+• Thermal relief zones
+• Soldering instructions
+√ Temporary guides for routing real tracks
+• Copper ventilation holes
+204. What is a “via” in PCB design?
+• A microprocessor
+• A special wire for Bluetooth
+• A power input socket
+• A packaging component
+√ A hole connecting different board layers
+205. What is the primary reason for designing a PCB?
+• To automate packaging
+• To market the project
+• To reduce code size
+• To meet FCC guidelines
+√ To create a reliable and scalable version of a circuit
+206. What is a kit in the context of IoT products?
+• A pre-certified product
+• A microcontroller
+• A user manual
+√ A DIY assembly package for users
+• A marketing bundle
+207. What certification is required to sell products in the U.S.?
+• UL
+• ISO
+• CE
+• RoHS
+√ FCC
+208. Why might free labor not scale in manufacturing?
+• Because machines are illegal in some areas
+• Because resellers prefer hand-assembled kits
+• Because it's cheaper to solder at night
+√ Because personal time becomes insufficient as demand grows
+• Because hobbyist boards are always automated
+209. What’s the role of an “angel investor”?
+• Bank that offers equipment leases
+• High-risk debt collector
+√ Early-stage investor who often offers advice and funding
+• Government agency funding tech projects
+• Crowdfunding backer with small donations
+210. What does “being a key resource” in someone else’s business model mean?
+• Owning their brand
+• Acting as an internal HR officer
+• Running their social media
+√ Supplying essential components or services to other businesses
+• Being listed as a co-founder
+211. Why is early transparency in business plans important?
+• It reduces taxes
+• It saves money on advertising
+• It allows competitors to copy you
+√ It builds trust with many users and investors
+• It helps avoid branding
+212. What risk does memory fragmentation present in embedded systems?
+• Slower clock speed
+• Loss of Wi-Fi
+• Incomplete firmware uploads
+√ Inability to allocate large contiguous memory blocks
+• Battery drain
+213. What is a potential advantage of offering customizable IoT products?
+• Simplified manufacturing
+• Lower marketing requirements
+√ Increased user engagement and perceived value
+• Standardized pricing
+• Faster shipping times
+214. What role do “Key Partners” play in the Business Model Canvas?
+• They are shareholders
+• They are part of your HR team
+• They are your biggest customers
+√ They provide crucial external resources or services
+• They are investors only
+215. What is the function of an ADC (Analog-to-Digital Converter) in IoT devices?
+• Generate analog signals from digital values
+• Store firmware updates
+• Connect to wireless networks
+√ Convert varying amount of voltages into digital values
+• Encrypt data for secure transmission
+216. What is the main focus of a “lean startup”?
+√ Creating and testing a Minimum Viable Product quickly and efficiently
+• Hiring as many employees as possible early
+• Building a brand image through advertising
+• Selling high volumes before testing the product
+• Avoiding customer feedback
+217. What is a WEEE certification related to?
+• Software licensing
+• Waterproofing standards
+• Emergency radio compliance
+√ Recycling of electronic waste in the EU
+• Wireless energy efficiency
+218. What was Vannevar Bush referring to in his essay 'As We May Think'?
+• The start of social media
+• The creation of the Internet
+• The invention of smartphones
+√ The advent of reliable and mass-produced complex devices enabling widespread technological use
+• The decline of printing
+219. What is a key benefit of crowdsourced sensor networks?
+• They increase product sales
+• They are expensive to run
+• They replace scientists
+√ They enable local communities to collect data relevant to their specific issues
+• They eliminate the need for government
+220. Why is metadata in photos a privacy concern?
+• It can crash your phone
+• It makes files larger
+• It makes uploading slow
+• It lowers image quality
+√ It can reveal location and personal information through embedded GPS data
+221. What is a reason optimistic views of technology are often more complex?
+• They are usually written by scientists
+• They require more evidence
+• They lack emotional impact
+√ They reflect multifaceted and nuanced benefits across society
+• They involve technical language
+222. Why do some consider community-led sensor networks revolutionary?
+• Because they are hidden
+• Because they’re expensive
+• Because they’re government-run
+√ Because they empower citizens to gather data that can support activism and civic change
+• Because they track celebrities
+223. What does “post-privacy” refer to in the context of future technology?
+• People deleting all data
+• A return to handwritten letters
+• Complete data encryption
+√ A scenario where privacy no longer exists due to pervasive, unavoidable data collection
+• Governments banning smartphones
+224. How does the concept of “open data” relate to IoT ethics?
+• It means charging fees for access
+• It allows hackers to freely collect data
+• It encrypts all government data
+• It eliminates local sensors
+√ It involves making sensor data publicly accessible while respecting privacy rights of individuals
+225. Why is transparency important in IoT systems collecting data from people?
+• So phone signals aren’t blocked
+• So people don’t steal devices
+• So devices can update software
+√ So individuals know what is collected, how it’s used, and can give or withdraw consent
+• So apps can sync properly
+226. What is the central ethical issue with hidden sensors in public places?
+• They do not collect meaningful data
+• They consume too much power
+• They are aesthetically unappealing
+√ They collect data without public knowledge or consent, which may violate personal freedoms
+• They often break
+227. What does the term "data subject" refer to in the context of IoT?
+• The engineer designing the sensor
+• The owner of the device collecting data
+√ The individual whose actions or environment is being recorded by sensors
+• The cloud server storing the data
+• The software used for data processing
+228. Why are corporations a concern in IoT ethics?
+• They are large companies
+• They make advertisements
+√ They have the technology and incentive to exploit user data for profit without accountability
+• They don’t use apps
+• They rely on engineers
+229. What ethical dilemma arises when a visitor enters a smart home?
+• They get confused by smart lights
+• They can’t connect to Wi-Fi
+• They need instructions
+√ Their data may be collected and used without their knowledge or consent by the system owner
+• They trigger alarms
+230. What does “cautious optimism” mean in the context of IoT ethics?
+• Ignoring future trends
+• Avoiding all AI
+√ Embracing innovation while being vigilant about potential harms and acting responsibly
+• Embracing only analog tools
+• Rejecting technology
+231. What might cause ethical concern in crowd-controlled IoT applications like Kickstarter-funded sensors?
+• Too many people donate
+√ Lack of regulation and oversight might lead to privacy breaches or misuse of data
+• Crowdfunding is banned
+• Products are always fake
+• Developers earn too much
+232. How can smart city technologies be ethically problematic?
+• Because they delay traffic
+• Because they block GPS
+• Because they need 5G
+√ If implemented without citizen input, they can enforce behavioral norms or enable mass surveillance
+• Because they use too many lights
+233. What concern arises from Internet-connected objects in public spaces?
+• They block pathways
+• They take up power outlets
+• They are bright and distracting
+• They use too many wires
+√ They might collect demographic data without user consent for commercial purposes
+234. Which of the following is a key component of a device that enables it to interact with the physical world in IoT?
+√ Actuators
+• Audio speakers
+• Database
+• Printer
+• Internet Protocol (IP)
+235. Which of the following is an example of an IoT device enhancing user experience through "calm technology"?
+• A fridge that loudly announces when food is running low
+• A smartphone app that requires users to check the weather manually
+• A device that constantly requests user input for basic operations
+√ A thermostat that adjusts temperature based on user preferences without interrupting them
+• A smartwatch that continuously displays notifications
+236. What was Mark Weiser’s contribution to the concept of IoT?
+• He created the first internet-connected sensor
+• He designed the first IoT communication protocol
+• He developed the first smart home system
+• He invented the first IoT device
+√ He introduced the term "ubiquitous computing"
+237. Which of the following is the best example of an IoT device using the formula?
+• A simple refrigerator that doesn’t collect data from its environment.
+• A fitness tracker that only records data without internet connectivity.
+√ A smart home security system that detects motion (sensor), processes data (controller), sends it over the internet, and triggers an alarm (actuator).
+• A basic lightbulb that turns on with a physical switch.
+• A traditional alarm clock that sounds at a preset time.
+238. How does Moore's Law impact the development of the Internet of Things (IoT)?
+• It restricts the number of devices that can connect to the internet.
+• It decreases the efficiency of IoT devices.
+√ It enables smaller, more powerful devices with more capabilities for IoT.
+• It slows down the development of new IoT technologies.
+• It makes IoT devices more expensive.
+239. What is the main function of IoT in a smart city?
+• To store large amounts of data in one place.
+• To replace human workers with machines.
+• To monitor traffic patterns without optimizing city services.
+√ To connect urban infrastructure and services, improving efficiency and quality of life for citizens.
+• To limit communication between devices.
+240. How has the cost of computing power affected the IoT?
+• It has reduced the need for data processing.
+• It has made devices less efficient.
+• It has made devices more expensive to produce.
+• It has decreased the availability of network services.
+√ It has become so cheap that adding internet connectivity and computing power to devices is more affordable than before.
+241. How did Web 2.0 contribute to the IoT ecosystem?
+• By restricting web apps to browser-only usage.
+• By replacing sensors with manual data entry.
+• By the interaction between different online services.
+√ By introducing APIs that allow connected devices to consume services.
+• By eliminating the need for mobile apps.
+242. Which of the following is false about IoT devices?
+• IoT enables automation and remote control of physical objects.
+• IoT systems include controllers to process information.
+• IoT devices can collect and transmit data using sensors.
+√ IoT devices do not require internet connectivity to function.
+• Actuators in IoT devices perform actions based on commands.
+243. How would Moore’s Law influence the development of more advanced IoT systems in the future?
+• It would prevent the use of sensors in advanced IoT systems.
+• It would make IoT systems obsolete over time.
+• It would make IoT systems less powerful and more simplistic.
+• It would limit the number of devices that can be connected to the internet.
+√ It would allow the integration of more powerful processors, making IoT devices smarter and more capable of handling complex tasks.
+244. Which statement best describes the function of 6LoWPAN in IoT networks?
+• A mechanism that allows multiple IPv6 addresses to be assigned to a single IoT device for seamless communication across different networks.
+• A protocol that converts IPv6 to IPv4 for legacy IoT devices to ensure backward compatibility.
+√ A protocol that enables low-power wireless devices to communicate over compressed IPv6 packets in constrained networks.
+• A framework that enhances IPv6 security for wireless sensor networks by enforcing encryption policies.
+• A routing protocol that replaces IPv6 in low-power IoT environments to reduce overhead.
+245. What is the main benefit of using hashes in IoT security?
+• Compresses large files for faster transmission.
+• Reduces battery consumption in low-power IoT devices.
+• Enables direct device-to-device communication.
+√ Ensures secure data storage by making information irreversible.
+• Converts IPv4 addresses to IPv6.
+246. What does the "6" in 6LoWPAN stand for?
+• It indicates the 6th version of the WPAN protocol
+• It refers to the 6G network
+• It refers to the number of devices in the network
+√ It represents IPv6 (Internet Protocol version 6)
+• It stands for 6 hours of battery life
+247. What is a key challenge of designing an IoT system for smart cities?
+• The system should not use encryption
+• Devices should only work indoors
+• Devices should be expensive
+• The system should work only with one brand
+√ The system should handle a massive number of connected devices
+248. Which is a valid IPv6 address?
+• 192.168.1.1
+• http://example.com
+• 01:23:45:67:89:ab
+√ 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+• 8.8.8.8
+249. What initiates a TCP connection?
+• MAC address resolution
+• DHCP request
+• DNS query
+√ SYN, SYN-ACK, ACK handshake
+• UDP datagram
+250. Which port number is commonly used for HTTP?
+• 25
+• 443
+• 22
+√ 80
+• 53
+251. What does DNS primarily resolve?
+• IP addresses to MAC addresses
+• Encrypted data to plaintext
+• IPv4 addresses to IPv6 addresses
+√ Domain names to IP addresses
+• Port numbers to services
+252. Which aspect is crucial for IoT security during prototyping?
+• Using the cheapest components available
+• Relying solely on physical security
+• Delaying security until production
+√ Implementing basic encryption and authentication
+• Avoiding internet connectivity
+253. What does TLS (Transport Layer Security) provide in HTTPS?
+• DNS record updates
+• MAC address resolution
+• Dynamic IP assignment
+√ Encryption
+• Port number mapping
+254. What is a key difference between TCP and UDP in IoT applications?
+• UDP uses sequence numbers; TCP does not
+• TCP is used for DNS; UDP for HTTP
+• UDP guarantees delivery; TCP does not
+√ TCP ensures reliability; UDP prioritizes speed
+• TCP works at the link layer; UDP at the application layer
+255. Which layer of the TCP/IP stack handles physical network interfaces like Ethernet or WiFi?
+• Application layer
+• Session layer
+• Internet layer
+• Transport layer
+√ Link layer
+256. Why might someone choose an Arduino for prototyping?
+• Built-in 5G connectivity
+• Exclusive closed-source libraries
+• No need for programming
+• Highest processing power available
+√ Ease of use and strong community support
+257. What role do maker communities play in prototyping?
+• Fund all prototyping costs
+• Replace the need for testing
+√ Provide support and shared knowledge
+• Handle mass production logistics
+• Ensure open-source licensing
+258. Which consideration is vital for IoT device scalability?
+• Using the most expensive components
+• Focusing solely on software development
+• Keeping the design secret until launch
+√ Ensuring the prototype’s platform can transition to production
+• Avoiding community interaction
+259. What is the primary purpose of a breadboard in prototyping?
+• Storing firmware updates
+• 3D printing components
+• Encrypting data transmissions
+√ Facilitating easy circuit connections without soldering
+• Hosting web applications
+260. Why might a “hybrid” open/closed-source strategy benefit IoT startups?
+• Eliminates prototyping costs
+• Reduces reliance on community
+• Impacts mass production logistics
+√ Balances community collaboration with IP protection
+• Guarantees regulatory compliance
+261. What ethical concern arises when open-sourcing an IoT device’s firmware?
+• Reduced community engagement
+• Compatibility with legacy hardware
+• Increased production costs
+√ Risk of exposing security vulnerabilities
+• Simplified patent filing processes
+262. Which platform is typically more suitable for low-level hardware interactions?
+• Cloud server
+• Virtual machine
+• Smartphone
+• Desktop PC
+√ Arduino
+263. Which of the following is a common use case for the BeagleBone in IoT prototyping?
+• Projects requiring high-resolution graphics
+• Simple projects with minimal hardware requirements
+• Projects focused on cloud computing
+• Projects with no need for internet connectivity
+√ Complex projects requiring multiple GPIO pins and ADCs
+264. Which of the following is a key advantage of using Squirrel in Electric Imp prototyping?
+• Lower costs
+√ Simplified handling of asynchronous tasks and network communication
+• Exclusive access to proprietary features
+• No need for testing or debugging
+• Guaranteed compatibility with all sensors
+265. What is the primary purpose of the ID chip in Electric Imp prototyping?
+• Store firmware updates
+• Encrypt data transmissions
+• Replace the need for sensors
+• Replace the need for devices
+√ Identify the impee to the Electric Imp server
+266. What is the primary purpose of the Raspberry Pi’s HDMI output?
+• Replace the need for device
+√ Connect to a display for visual output
+• Encrypt data transmissions
+• Replace the need for sensors
+• Store firmware updates
+267. Why might someone choose open-source hardware?
+• To reduce prototyping time to one day
+• To make the device smaller
+• To keep the design secret from competitors
+• To avoid using the internet
+√ To share designs and collaborate with others
+268. What type of hardware is Raspberry Pi based on?
+• FPGA
+• Microcontroller
+• GPU
+√ Microprocessor
+• SoC (System on Chip)
+269. Which Arduino board is best for projects requiring multiple PWM outputs?
+• Arduino Uno
+• Arduino Leonardo
+• Arduino Due
+√ Arduino Mega 2560
+• Arduino Nano
+270. Which function is used to set a pin as input or output in Arduino?
+• Serial.begin()
+√ pinMode()
+• delay()
+• analogRead()
+• digitalWrite()
+271. Which Arduino board has built-in Ethernet connectivity?
+• Arduino Uno
+• Arduino Nano
+• Arduino Due
+√ Arduino Ethernet
+• Arduino Mega 2560
+272. What is the purpose of the digitalRead() function in Arduino?
+• Pauses the program
+• Initializes serial comms
+• Sets a pin HIGH or LOW
+• Reads an analog input
+√ Reads a digital input
+273. Which Arduino board is best for projects requiring multiple serial ports?
+• Arduino Leonardo
+√ Arduino Mega 2560
+• Arduino Uno
+• Arduino Nano
+• Arduino Due
+274. Which of the following is a popular interface for connecting sensors to microcontrollers in IoT prototyping?
+• FTP
+• DHCP
+√ I2C
+• HTTP
+• DNS
+275. Which interface is commonly used for communication between sensors and microcontrollers?
+• HTTP
+• DHCP
+• DNS
+√ I2C
+• TCP
+276. What can you do if an unexpected error occurs in a Python script?
+• Ignore the error
+• Restart the Raspberry Pi
+• Delete the script
+√ Log details and handle the error
+• Stop the script permanently
+277. What type of processor does the Raspberry Pi use?
+• AMD Ryzen
+• Intel x86
+• PowerPC
+• MIPS
+√ ARM
+278. What is the primary goal of the Raspberry Pi Foundation?
+• Develop gaming consoles
+• Explore space technology
+• Build medical devices
+√ Promote computer science education
+• Create industrial robots
+279. What is the purpose of the raspi-config tool?
+• Update the OS
+• Monitor system performance
+• Check system logs
+√ Configure system settings
+• Install software
+280. What is the default operating system for Raspberry Pi?
+• Android
+• Windows
+• macOS
+√ Raspbian
+• Ubuntu
+281. What is the purpose of the detachInterrupt() function in Arduino?
+• Pauses the program
+• Reads an analog input
+• Sets a pin HIGH or LOW
+√ Disables interrupts
+• Initializes serial comms
+282. What is the purpose of the bitRead() function in Arduino?
+• Reads an analog input
+• Initializes serial comms
+• Pauses the program
+√ Reads a bit from a number
+• Sets a pin HIGH or LOW
+283. What makes CNC milling distinct from 3D printing?
+• It connects to Bluetooth
+• It only prints logos
+• It melts plastic into glue
+• It uses acid to cut metal
+√ CNC milling is a subtractive process that removes material to form objects with high precision because it explains the concept thoroughly and provides an example.
+284. Why do laser cutters often outperform 3D printers for quick prototyping?
+• They use voice commands
+• They come with built-in batteries
+• They work underwater
+√ Laser cutters are faster, handle more materials, and are simpler to operate for 2D designs because it explains the concept thoroughly and provides an example.
+• They produce stronger models
+285. Why is foamcore a good material for prototyping?
+• It requires a 3D printer
+√ It is lightweight, easy to cut, and forms rigid 3D shapes for model construction because it explains the concept thoroughly and provides an example.
+• It melts at low temperatures
+• It conducts electricity
+• It absorbs moisture
+286. Why is Sugru popular among designers and hackers?
+• It is conductive by default
+• It changes color with heat
+√ It is moldable silicone rubber that remains flexible and sticks to most materials because it explains the concept thoroughly and provides an example.
+• It is magnetic
+• It is edible and non-toxic
+287. Why is it helpful to keep a design scrapbook or Pinterest board?
+• To learn how to draw
+• To track design sales
+√ It helps you archive inspiring designs for future reference because it explains the concept thoroughly and provides an example.
+• To avoid copyright issues
+• To show off online
+288. What is a common use of Arduino in IoT projects?
+• Running a web server
+• Running machine learning models
+• Streaming
+√ Collecting sensor data
+• Hosting a database
+289. What is the risk of hardcoding authentication data into IoT devices?
+• It disables remote access.
+• It enhances motor performance.
+• It boosts download speed.
+• It improves sound quality.
+√ It makes them vulnerable to being compromised if the network is insecure.
+290. What is the main goal of OAuth in web services?
+• It repairs connection loss automatically.
+• It compresses API payloads.
+• It disables device timers.
+• It refreshes UI design.
+√ It allows applications to access user data without needing to handle passwords directly.
+291. What is screen-scraping?
+• It prevents data leaks from monitors.
+• It repairs cracked screens.
+• It protects screen glass.
+√ It is the process of programmatically extracting data from web pages by imitating user interactions.
+• It enhances screen color.
+292. How do cookies help with session1. Why is creating your own API beneficial for commercial IoT products?
+• They convert JSON to XML.
+• They improve graphics rendering.
+• They delete unused timers.
+√ Cookies store session tokens after login, allowing users to make further authenticated requests without resending credentials.
+• They add widgets to web pages.
+293. Why should API authentication not use cleartext usernames and passwords?
+• They limit API calls.
+• They crash routers.
+• They simplify debugging.
+√ Cleartext credentials can be intercepted over insecure networks, risking unauthorized access or data manipulation.
+• They reduce code size.
+294. What is the purpose of an API in IoT applications?
+• It replaces microcontrollers.
+• It controls batteries.
+• It stores passwords securely.
+• It prints documents remotely.
+√ It allows machines to access and interact with services by using defined commands instead of user interfaces.
+295. Why is rapid prototyping valuable in IoT product development?
+• It increases voltage
+• It prevents bugs
+• It doubles battery life
+• It replaces firmware
+√ It allows fast iterations and user testing, helping improve functionality and design quickly because it explains the concept thoroughly and provides an example.
+296. Why might a designer repurpose existing items in a prototype?
+• To comply with patents
+• To reduce device weight
+• To copy popular brands
+√ To save time and costs by using pre-made components from other products because it explains the concept thoroughly and provides an example.
+• To add Bluetooth faster
+297. Why is CAD software important for 3D printing?
+• It edits audio signals
+• It tests circuits
+• It codes websites
+• It paints surfaces
+√ It lets designers create and export 3D models compatible with slicing software because it explains the concept thoroughly and provides an example.
+298. What makes 3D printing unique compared to other fabrication methods?
+• It paints surfaces instantly
+• It uses microwaves to shape plastic
+• It carves objects from metal blocks
+√ It builds objects layer-by-layer from nothing, enabling complex internal structures because it explains the concept thoroughly and provides an example.
+• It only works with wood
+299. Which materials are typically cut using desktop laser cutters?
+• Iron bars and glass
+• Thick granite slabs
+• Carbon fiber panels
+√ Materials like plywood, MDF, and acrylic for IoT device housings because it explains the concept thoroughly and provides an example.
+• Gold sheets
+300. In the Business Model Canvas, what does the 'Value Proposition' represent?
+• How customers are contacted
+√ What you will produce to meet customer needs
+• Who your competitors are
+• The price you charge for shipping
+• Where you manufacture your product
+301. What was a major impact of Gutenberg’s printing press on business models?
+• It established global franchises
+√ It enabled mass production of books, democratizing access to information
+• It launched e-commerce
+• It allowed mass production of paper money
+• It created the first subscription newspapers
+302. What is a business model according to the chapter's expanded definition?
+• A plan for selling online
+• A list of products a company offers
+• A chart of company growth
+√ A hypothesis about customer needs, value delivery, and sustainable organization
+• A pricing strategy for startups
+303. What is one major benefit of event-driven programming in IoT devices?
+• Increases Wi-Fi range
+• Allows parallel sensor readings
+• Ensures 100% uptime
+√ Reduces power consumption by avoiding constant polling
+• Boosts display brightness
+304. What is a benefit of using a single-pass parsing approach?
+• Allows reverse-parsing
+• It caches all data into RAM
+√ It allows processing of data larger than available memory
+• It renders 3D graphics
+• It simplifies threading
+305. What is flash memory mainly used for in embedded systems?
+• To manage system cooling
+• To execute temporary variables
+• To display real-time logs
+√ To store persistent data and program code
+• To process audio files
+306. What is one of the biggest challenges when programming embedded systems?
+• Overheating GPUs
+• Keyboard compatibility issues
+• Browser version conflicts
+√ Limited resources like memory and storage and others
+• High-resolution graphics demands
+307. Why should APIs support multiple output formats like JSON and XML?
+• To emulate gaming inputs.
+• To enable faster printing.
+√ To accommodate different clients and programming environments that prefer different data formats.
+• To bypass cloud authentication.
+• To activate touchscreens.
+308. What is a reliable method for debugging if no serial output is available?
+• Overclocking the processor
+• Dumping memory to SD card
+√ Flashing an LED to indicate progress
+• Rebooting in safe mode
+• Changing the baud rate
+309. What does the F() macro in Arduino do?
+• Formats EEPROM contents
+• Finds memory leaks
+• Frees unused variables
+• Flags critical errors
+√ Stores strings in flash memory instead of RAM
+310. What is the main role of JTAG in debugging?
+• Boosts CPU clock
+• Opens UART ports automatically
+• Encrypts data for secure debugging
+• Connects devices wirelessly
+√ Enables in-circuit debugging and memory inspection
+311. What is the main advantage of avoiding unnecessary memory copying in embedded systems?
+• Faster GPU rendering
+• Longer device lifespans
+• Improved encryption
+√ Improved performance and reduced power usage
+• Enhanced camera feed
+312. What is a shim service in the context of IoT?
+• A data encryption tool
+• A power regulator
+• A backup router
+√ A server-side proxy that reduces data for the device
+• A wireless access point
+313. What is one reason to avoid using global variables in embedded code?
+• They require encryption
+• They are not supported in C
+• They increase startup time
+√ They consume RAM permanently
+• It limits storage speed
+314. Which of the following is a key feature of CoAP in IoT?
+• It increases Bluetooth bandwidth.
+• It boosts ambient light detection.
+• It is optimized for video compression.
+• It operates on a dual-screen interface.
+√ It is designed for constrained devices and supports communication over UDP.
+315. What is the main advantage of WebSockets over long polling?
+• They buffer HTTP traffic.
+• They reroute GPS signals.
+• They consume no electricity.
+• They eliminate server needs.
+√ WebSockets support bidirectional communication over a persistent connection.
+316. Why is tooling expensive in injection moulding?
+• It requires vacuum packing
+• It needs diamond coating
+• It always includes certification
+√ Moulds require precision machining
+• It’s hand-crafted
+317. What is a test rig used for?
+• Hosting cloud services
+• Measuring battery capacity
+• Drilling cases
+√ Verifying the functionality of PCBs
+• Editing Gerber files
+318. What are Gerber files used for?
+• Shipping orders
+• Documenting software logic
+• Testing batteries
+√ Describing PCB layers for manufacturers
+• Designing enclosures
+319. Why are through-hole components preferred in kits?
+• Pre-certified
+• More water-resistant
+• Smaller in size
+• Faster to manufacture
+√ Easier for beginners to solder
+320. Which software is best suited for PCB beginners?
+• DesignSpark
+• Altium Designer
+• Fusion 360
+• AutoCAD
+√ Fritzing
+321. What does a solder mask do on a PCB?
+• Connects tracks automatically
+• Doubles power efficiency
+√ Prevents solder from sticking to unwanted areas
+• Hides sensitive tracks
+• Makes the board waterproof
+322. Why are kits often built on platforms like Arduino?
+• They include advanced AI
+• They are always cheaper
+√ Community support and ease of use
+• They come with built-in FCC approval
+• They are the only legal option
+323. Which certification ensures electromagnetic safety in Europe?
+• HDMI
+• WEEE
+• FCC
+√ CE
+• UL
+324. What balances out the cost of outsourcing production?
+√ Bulk component purchasing
+• Using cheaper packaging
+• Hiring family members
+• Offering discount codes
+• Outsourcing shipping only
+325. What’s a “pivot” in the lean startup framework?
+• A temporary production pause
+• The launch of a second product
+• A new company name
+√ A strategic change to one aspect of the business model
+• A rebranding of the product
+326. Why do many makers open-source their hardware projects?
+• To avoid building websites
+• To qualify for all grants
+√ To grow a community and accelerate development
+• To make the design less secure
+• To reduce power consumption
+327. What is one advantage of working with accelerators?
+• Built-in profit margins
+• Exemption from taxes
+• Guaranteed retail placement
+• Automatic government grants
+√ Access to mentoring, space, and networking opportunities
+328. What benefit can crowdfunding provide beyond funding?
+• Automatic product certification
+√ Market validation and customer feedback
+• Manufacturing facilities
+• Product design services
+• Free legal advice
+329. Why do some businesses choose to sell products in kit form?
+• To increase warranty obligations
+• Because it’s mandatory for all hardware startups
+• To hide the real cost
+√ Reduced regulatory and certification requirements
+• To confuse non-technical users
+330. What does the “Revenue Stream” in the canvas represent?
+• Energy costs
+• Government subsidies
+• Where most expenses occur
+√ How the business generates income
+• Social media channels
+331. What innovation did Lever Brothers introduce with Sunlight Soap?
+• Natural ingredients
+• Home delivery service
+• Eco-friendly production
+√ Pre-packaged branded soap bars
+• Fragrance customization
+332. What is a “pivot” in lean startup methodology?
+√ A change in one part of the business model in response to feedback
+• A complete abandonment of the business
+• A change in logo or branding
+• A way to increase hardware complexity
+• The addition of more investors
+333. Why should software for IoT devices be tested thoroughly?
+√ It's hard to update once shipped
+• It's always encrypted
+• It never crashes
+• It’s open source
+• It doesn't need memory
+334. Why might IoT devices be deceptive in form?
+• They mimic toys
+• They are often colorful
+• They are hard to manufacture
+√ They can look ordinary while containing powerful sensing and data-gathering capabilities
+• They use common materials
+335. What should a sensor commons project prioritize?
+• Secrecy
+• Marketing
+• Centralization
+√ Community trust, openness, and local relevance of the sensor deployment
+• High pricing
+336. What is a primary ethical concern of smart meters?
+• They use electricity
+• They are hard to install
+√ They collect detailed behavioral data that can be mined for personal patterns
+• They are expensive
+• They may be inaccurate
+337. What narrative suggests technology leads us away from an ideal state?
+• The Luddite model
+√ The downward spiral of mankind from a better state
+• The future utopia
+• Post-human evolution
+• The singularity model
+338. What should a responsible IoT designer understand about global manufacturing?
+• That design is more important
+• That carbon offsets are free
+• That all manufacturing is green
+• That overseas labor is cheap
+√ That offshoring production has human rights implications and environmental impacts that must be assessed
+339. How might IoT devices disrupt traditional ethical and legal frameworks?
+• By slowing legal systems
+• By using outdated tech
+• By blocking police access
+• By making laws obsolete
+√ By operating in new contexts where old privacy and data ownership laws may not clearly apply
+340. What kind of societal shift might IoT encourage regarding ownership?
+• A rise in illegal downloads
+• A rejection of all technology
+• An increase in consumer product sales
+• A preference for analog devices
+√ A move from owning products to renting access to shared smart services
+341. Why are energy-efficient communication protocols like 6LoWPAN crucial for IoT?
+• Because they use blockchain
+√ Because continuous wireless transmission consumes significant power in embedded devices
+• Because they remove the need for sensors
+• Because they enhance Bluetooth
+• Because they help GPS work better
+342. What is meant by “sousveillance” in response to surveillance states?
+√ Citizens watching the powerful or authorities using similar tools
+• Police monitoring the Internet
+• Watching TV together
+• Hackers disabling surveillance
+• Teachers using digital tools
+343. What is a significant concern with location-sharing devices like the Good Night Lamp or WhereDial?
+• They break easily
+• They require expensive data plans
+• They only work in urban areas
+√ They can inadvertently enable surveillance from friends, family, or malicious third parties
+• They interfere with mobile signals
+344. What key factor makes the Internet of Things fundamentally different from previous technologies in terms of privacy concerns?
+• The lack of network access in IoT objects
+• People can manually control IoT devices at all times
+• All data collected by IoT devices
+• IoT objects never use real-time data
+√ The fact that data collection is tied to physical objects in everyday environments and often occurs without explicit user interaction
+345. What does the term 'data subject' refer to?
+• A company’s survey form
+• A user manual
+• A research paper
+√ A person whose personal data is being collected, even if they are not the one collecting it
+• A wireless device
+346. What’s a possible ethical downside of algorithms analyzing IoT data in real time?
+• They replace routers
+• They cause server lag
+• They block wireless signals
+• They need manual input
+√ They can make automated decisions that affect lives without transparency or recourse
+347. What is a reason for encouraging carbon-neutral web hosting for IoT platforms?
+• To block malware
+• To make data load faster
+√ To reduce the environmental impact of always-online data services and infrastructure
+• To improve phone battery
+• To allow more ads
+348. What ethical lesson is emphasized by “everyone is not you”?
+• Everyone thinks alike
+• Only engineers can use tech
+√ Designers must consider diverse users with different needs, values, and contexts
+• Designers should only build for themselves
+• Preferences are identical
+349. Why do early camera phones have shutter sounds?
+√ To address ethical concerns around non-consensual photography in public settings
+• To help with selfies
+• To alert users of errors
+• For aesthetic reasons
+• To mimic analog cameras

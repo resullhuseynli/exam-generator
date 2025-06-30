@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a618358d-142a-461a-a805-21acd6a00c8e" name="Changes" comment="docker implemented">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/examgenerator/ExamGeneratorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/examgenerator/controller/ExamController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/examgenerator/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/examgenerator/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/examgenerator/exception/model/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/examgenerator/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/examgenerator/service/ExamService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/examgenerator/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/examgenerator/ExamGeneratorApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExamGenerator" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExamGenerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExamGenerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2z688ITOitSQdoEnWvi4GZrEXN5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Gradle.Build ExamGenerator.executor": "Run",
+    "Gradle.ExamGenerator [build].executor": "Run",
+    "Gradle.ExamGenerator [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ExamGeneratorApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\projects\ExamGenerator\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ExamGeneratorApplication">
+    <configuration name="ExamGenerator [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExamGenerator [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExamGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ExamGenerator.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.examgenerator.ExamGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Gradle.ExamGenerator [build]" />
+        <item itemvalue="Gradle.ExamGenerator [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a618358d-142a-461a-a805-21acd6a00c8e" name="Changes" comment="" />
+      <created>1751040003686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751040003686</updated>
+      <workItem from="1751040004946" duration="16842000" />
+      <workItem from="1751098355363" duration="8178000" />
+      <workItem from="1751110589536" duration="1947000" />
+      <workItem from="1751117757575" duration="3000" />
+      <workItem from="1751118054699" duration="3000" />
+      <workItem from="1751118154757" duration="146000" />
+      <workItem from="1751190245191" duration="1536000" />
+      <workItem from="1751209515756" duration="4416000" />
+      <workItem from="1751224633777" duration="65000" />
+      <workItem from="1751278975864" duration="85000" />
+      <workItem from="1751280402461" duration="1211000" />
+    </task>
+    <task id="LOCAL-00001" summary="thymeleaf added">
+      <option name="closed" value="true" />
+      <created>1751052654352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751052654352</updated>
+    </task>
+    <task id="LOCAL-00002" summary="examcontroller created and testing">
+      <option name="closed" value="true" />
+      <created>1751052677080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751052677080</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ExamService created and testing">
+      <option name="closed" value="true" />
+      <created>1751052690286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751052690286</updated>
+    </task>
+    <task id="LOCAL-00004" summary="FileController created!">
+      <option name="closed" value="true" />
+      <created>1751052709340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751052709340</updated>
+    </task>
+    <task id="LOCAL-00005" summary="FileService created!">
+      <option name="closed" value="true" />
+      <created>1751052717654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751052717654</updated>
+    </task>
+    <task id="LOCAL-00006" summary="GlobalExceptionHandler created!">
+      <option name="closed" value="true" />
+      <created>1751052725654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751052725654</updated>
+    </task>
+    <task id="LOCAL-00007" summary="index.html just created!">
+      <option name="closed" value="true" />
+      <created>1751052738343</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751052738343</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ApiResponse just created but will be update!">
+      <option name="closed" value="true" />
+      <created>1751054510206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751054510206</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Exceptions fixed">
+      <option name="closed" value="true" />
+      <created>1751054536540</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751054536540</updated>
+    </task>
+    <task id="LOCAL-00010" summary="GlobalExceptionHandler handle FileNotFoundException">
+      <option name="closed" value="true" />
+      <created>1751054559096</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751054559096</updated>
+    </task>
+    <task id="LOCAL-00011" summary="@CrossOrigin added for future forms">
+      <option name="closed" value="true" />
+      <created>1751054580679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1751054580679</updated>
+    </task>
+    <task id="LOCAL-00012" summary="thymeleaf removed">
+      <option name="closed" value="true" />
+      <created>1751058461776</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751058461776</updated>
+    </task>
+    <task id="LOCAL-00013" summary="variable added">
+      <option name="closed" value="true" />
+      <created>1751058479921</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751058479921</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ExamRequest class added">
+      <option name="closed" value="true" />
+      <created>1751058490232</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1751058490232</updated>
+    </task>
+    <task id="LOCAL-00015" summary="html classes deleted">
+      <option name="closed" value="true" />
+      <created>1751058500538</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1751058500538</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Return type fixed">
+      <option name="closed" value="true" />
+      <created>1751058522855</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1751058522855</updated>
+    </task>
+    <task id="LOCAL-00017" summary="restcontroller returned">
+      <option name="closed" value="true" />
+      <created>1751058533620</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1751058533620</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fixed">
+      <option name="closed" value="true" />
+      <created>1751058592476</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1751058592477</updated>
+    </task>
+    <task id="LOCAL-00019" summary="deleted">
+      <option name="closed" value="true" />
+      <created>1751098879538</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1751098879538</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Request changed to filterize">
+      <option name="closed" value="true" />
+      <created>1751098889994</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1751098889994</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Request changed to filterize">
+      <option name="closed" value="true" />
+      <created>1751098893736</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1751098893736</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Question added">
+      <option name="closed" value="true" />
+      <created>1751191759494</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1751191759494</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Return type changed">
+      <option name="closed" value="true" />
+      <created>1751191775725</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1751191775725</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Return type changed">
+      <option name="closed" value="true" />
+      <created>1751191779724</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1751191779724</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Exceptions added!">
+      <option name="closed" value="true" />
+      <created>1751191787413</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1751191787413</updated>
+    </task>
+    <task id="LOCAL-00026" summary="changed location">
+      <option name="closed" value="true" />
+      <created>1751212027501</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1751212027501</updated>
+    </task>
+    <task id="LOCAL-00027" summary="random questions endpoint added">
+      <option name="closed" value="true" />
+      <created>1751212285193</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1751212285193</updated>
+    </task>
+    <task id="LOCAL-00028" summary="IndexOutOfBound handling deleted">
+      <option name="closed" value="true" />
+      <created>1751212300387</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1751212300387</updated>
+    </task>
+    <task id="LOCAL-00029" summary="random question service added">
+      <option name="closed" value="true" />
+      <created>1751212310846</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1751212310846</updated>
+    </task>
+    <task id="LOCAL-00030" summary="swagger added and changed the version of spring boot">
+      <option name="closed" value="true" />
+      <created>1751212458043</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1751212458043</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added @Operation tags">
+      <option name="closed" value="true" />
+      <created>1751212569504</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1751212569504</updated>
+    </task>
+    <task id="LOCAL-00032" summary="changed consumer type for Post Request">
+      <option name="closed" value="true" />
+      <created>1751213902420</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1751213902420</updated>
+    </task>
+    <task id="LOCAL-00033" summary="removed unused imports">
+      <option name="closed" value="true" />
+      <created>1751213931457</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1751213931457</updated>
+    </task>
+    <task id="LOCAL-00034" summary="docker implemented">
+      <option name="closed" value="true" />
+      <created>1751281258943</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1751281258943</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ApiResponse just created but will be update!" />
+    <MESSAGE value="Exceptions fixed" />
+    <MESSAGE value="GlobalExceptionHandler handle FileNotFoundException" />
+    <MESSAGE value="@CrossOrigin added for future forms" />
+    <MESSAGE value="thymeleaf removed" />
+    <MESSAGE value="variable added" />
+    <MESSAGE value="ExamRequest class added" />
+    <MESSAGE value="html classes deleted" />
+    <MESSAGE value="Return type fixed" />
+    <MESSAGE value="restcontroller returned" />
+    <MESSAGE value="fixed" />
+    <MESSAGE value="deleted" />
+    <MESSAGE value="Request changed to filterize" />
+    <MESSAGE value="Question added" />
+    <MESSAGE value="Return type changed" />
+    <MESSAGE value="Exceptions added!" />
+    <MESSAGE value="changed location" />
+    <MESSAGE value="random questions endpoint added" />
+    <MESSAGE value="IndexOutOfBound handling deleted" />
+    <MESSAGE value="random question service added" />
+    <MESSAGE value="swagger added and changed the version of spring boot" />
+    <MESSAGE value="added @Operation tags" />
+    <MESSAGE value="changed consumer type for Post Request" />
+    <MESSAGE value="removed unused imports" />
+    <MESSAGE value="docker implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker implemented" />
+  </component>
+</project>
